@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up | Log In</title>
+    <link rel="stylesheet" href="./css_movie/Style_Signup_login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+       <div class="title-text">
+          <div class="title login">
+             <img src="popcorn.png" height="30px" width="30px" alt=""><img src="time.png" height="30px" width="30px" alt="">
+             Account 
+          </div>
+          <div class="title signup">
+            <img src="popcorn.png" height="30px" width="30px" alt=""><img src="time.png" height="30px" width="30px" alt="">
+            Account
+          </div>
+       </div>
+       <div class="form-container">
+          <div class="slide-controls">
+             <input type="radio" name="slide" id="login" checked>
+             <input type="radio" name="slide" id="signup">
+             <label for="login" class="slide login">Login</label>
+             <label for="signup" class="slide signup">SignUp</label>
+             <div class="slider-tab"></div>
+          </div>
+          <div class="form-inner">
+             <form action="#" class="login">
+                <div class="field">
+                   <input type="text" placeholder="Email Address" required>
+                </div>
+                <div class="field">
+                   <input type="password" placeholder="Password" required>
+                </div>
+                <div class="pass-link">
+                   <a href="#">Reset password?</a>
+                </div>
+                <div class="field btn">
+                   <div class="btn-layer"></div>
+                   <input type="submit" class="main" value="Login" id="mainLogin"> <!--Main Submit Button-->
+                </div>
+                <div class="signup-link">
+                   Don't Have Account? <a href="">Create New Account</a>
+                </div>
+             </form>
+             <form action="#" class="signup">
+                <div class="field">
+                   <input type="email" placeholder="Email Address" id="email" required>
+                </div>
+                <div class="field">
+                   <input type="password" placeholder="Password" id="password" required>
+                </div>
+                <!-- <div class="field">
+                   <input type="password" placeholder="Confirm Password" required>
+                </div> -->
+                <div class="field btn">
+                   <div class="btn-layer"></div>
+                   <input type="submit" value="SignUp">
+                </div>
+             </form>
+          </div>
+       </div>
+    </div>
+   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+   <script src="./js_movie/index_Firebase.js"></script>
+   <script src="./js_movie/buttonChange.js"></script>
+   
+  </body>
+</html>

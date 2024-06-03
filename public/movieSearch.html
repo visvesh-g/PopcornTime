@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css_movie/style.css">
+
+    <title>MovieSearch-PopCornTime</title>
+</head>
+
+<body>
+    <!-- Further code here -->
+    <div class="wrapper">
+        <div class="search-block">
+            <a href="/">
+                <h1>PopCornTime</h1>
+            </a>
+            <form id="search-form">
+                <input type="text" id="query" placeholder="Search for movies..." />
+                <button type="submit" class="btn">Search</button>
+            </form>
+            <button onclick="getTopRatedMovies()" class="btn">Top Rated</button>
+            <button onclick="showGenres()" class="btn">Genres</button>
+            <button id="signout" class="btn"><a href="./index.html">Signout</a></button>
+
+            <div id="genres-container"></div>
+        </div>
+        <div class="row" id="root"></div>
+    </div>
+    
+
+    <script src="./js_movie/script.js"></script>
+    <script src="./js_movie/signout.js"></script> <!--To handle signout-->
+</body>
+
+</html>
