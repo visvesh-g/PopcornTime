@@ -54,7 +54,7 @@ const firebaseConfig = {
 
     function validate_password(password){
       //validate for password of upto length 6 and more.
-      if(password>=6){
+      if(password.length>=6){
         return true;  // correct password
       }
       else{
