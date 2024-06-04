@@ -1,6 +1,6 @@
 # PopcornTime
 
-Kindly access the website link in the about section of the github page.
+Kindly access the website link in the about section of the github page. (Website hosted using Netlify)
 
 index.html-Main starter file:
 Main HTML file containing the login and signup forms.
