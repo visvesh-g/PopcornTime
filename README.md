@@ -1,6 +1,6 @@
 # PopcornTime
 
-# Kindly access the website link in the about section of the github page. (Website hosted using Netlify)
+# Kindly access the website link (Website hosted using Netlify) - https://guileless-bunny-7684a3.netlify.app/ 
 
 index.html-Main starter file:
 * Main HTML file containing the login and signup forms.
