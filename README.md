@@ -1,4 +1,7 @@
 # PopcornTime
+
+Kindly access the website link in the about section of the github page.
+
 index.html-Main starter file:
 Main HTML file containing the login and signup forms.
 Input fields for email and password for both signup and login
